@@ -6,3 +6,28 @@ body {
 	background-position: center;
 	background-color: black;
 }
+
+.navbar {
+	background-color: white;
+	margin-top: 10px;
+	padding-top: 15px;	
+}
+
+.navbar li{
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+.form{
+	display: inline-block;
+}
+
+.container h1 {
+	padding-bottom: 20px;
+	font-color:white;
+}
+
+#section{
+padding-top: 550px;
+}
