@@ -1,5 +1,5 @@
 body {
-	background-image: url('images/bund.png'); 
+	background-image: url('../images/bund.png'); 
 	background-size: 95%; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -15,7 +15,7 @@ body {
 	text-decoration: none;
 	width:300px;
 	min-height: 10px;
-	opacity: 0.5;
+	opacity: 0.6;
 }
 
 .navbar li{
@@ -39,24 +39,13 @@ body {
 	font-weight:bold;
 }
 
-.title{
-	padding-top: 300px;
-	padding-left: 32px;
-	font-family: lucida handwriting;
-}
-
-.title h1{
-	font-size: 27px;
-}
-
 #section {
 	background-color: black;
 	border-top: solid white 2px;
 	border-bottom: solid white 2px;
-	margin-top: 23%;
-	margin-left: 32px;
-	margin-right: 32px;
-	position: relative;
+	margin-top: 49.1%;
+	margin-left: 46px;
+	margin-right: 46px;
 }
 
 #section a{
@@ -71,6 +60,41 @@ body {
 	font-weight: bold;
 	display: block;
 	color: black;
-
 }
+
+#section a.link1 {
+	background-color: red;
+	display: block;
+}
+
+#topic {
+margin-left: 255px;
+margin-top: 175px;
+align-content: center;
+}
+
+.thumbnail {
+background-color: black;
+border-color: white;
+}
+
+.thumbnail p{
+	color:white;
+	font-family: allegro;
+	font-size: 18px;
+}
+
+.thumbnail:hover{
+	background-color: white;
+}
+
+.thumbnail a:hover{
+	text-decoration: none;
+}
+
+.thumbnail:hover p{
+	color:black;
+}
+
+
 
